@@ -38,6 +38,7 @@ jobs:
         with:
           clippy: true
           rustfmt: true
+          cli: true
 
       - name: Format CLI
         run: pnpm clients:cli:format
@@ -166,6 +167,7 @@ jobs:
         with:
           cargo-cache-key: cargo-rust-client
           solana: true
+          cli: true
 
       - name: Restore Program Builds
         uses: actions/cache/restore@v4
