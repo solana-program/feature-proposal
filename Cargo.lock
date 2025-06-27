@@ -4122,9 +4122,9 @@ dependencies = [
 
 [[package]]
 name = "solana-clap-utils"
-version = "2.2.7"
+version = "2.2.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "eb3c210e89742f6c661eb4e7549eb779dbc56cab4b700a1fd761cd7c9b2de6e6"
+checksum = "1780b6e5770254a7134d420597aa571cb33300f5d6961c844d938547407e6ea2"
 dependencies = [
  "chrono",
  "clap",
@@ -4151,9 +4151,9 @@ dependencies = [
 
 [[package]]
 name = "solana-cli-config"
-version = "2.2.7"
+version = "2.2.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6cdb4a08bb852494082cd115e3b654b5505af4d2c0e9d24e602553d36dc2f1f5"
+checksum = "2e58b1144a805e86b65270a5973f22685857f8c1164fa1b23201f2e676c547da"
 dependencies = [
  "dirs-next",
  "lazy_static",
@@ -5417,9 +5417,9 @@ dependencies = [
 
 [[package]]
 name = "solana-remote-wallet"
-version = "2.2.7"
+version = "2.2.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e71f9dfc6f2a5df04c3fed2b90b0fbf0da3939f3383a9bf24a5c0bcf994f2b10"
+checksum = "01e145971264ef0f67eacf62480b83d5854d1280fe08f22a95a9327a7f86a981"
 dependencies = [
  "console",
  "dialoguer",
