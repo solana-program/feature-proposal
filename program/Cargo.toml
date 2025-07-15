@@ -19,7 +19,7 @@ spl-token = { version = "8.0", features = [
 ] }
 
 [dev-dependencies]
-solana-program-test = "2.2.4"
+solana-program-test = "2.3.4"
 solana-sdk = "2.2.1"
 
 [lib]
