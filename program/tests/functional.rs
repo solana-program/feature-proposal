@@ -3,16 +3,14 @@
 #![cfg(feature = "test-sbf")]
 
 use {
-    solana_program::{
-        feature::{self, Feature},
-        program_option::COption,
-        system_program,
-    },
+    solana_feature_gate_interface::Feature,
+    solana_program::program_option::COption,
     solana_program_test::*,
     solana_sdk::{
         signature::{Keypair, Signer},
         transaction::Transaction,
     },
+    solana_sdk_ids::{feature, system_program},
     spl_feature_proposal::{instruction::*, state::*, *},
 };
 
