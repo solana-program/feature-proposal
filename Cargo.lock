@@ -7072,9 +7072,12 @@ name = "spl-feature-proposal"
 version = "2.0.0"
 dependencies = [
  "borsh 1.5.7",
+ "solana-feature-gate-interface",
  "solana-program",
  "solana-program-test",
  "solana-sdk",
+ "solana-sdk-ids",
+ "solana-system-interface",
  "spl-token",
 ]
 
