@@ -882,6 +882,33 @@ dependencies = [
 ]
 
 [[package]]
+name = "clap"
+version = "4.5.46"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "2c5e4fcf9c21d2e544ca1ee9d8552de13019a42aa7dbf32747fa7aaf1df76e57"
+dependencies = [
+ "clap_builder",
+]
+
+[[package]]
+name = "clap_builder"
+version = "4.5.46"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fecb53a0e6fcfb055f686001bc2e2592fa527efaf38dbe81a6a9563562e57d41"
+dependencies = [
+ "anstream",
+ "anstyle",
+ "clap_lex",
+ "strsim 0.11.1",
+]
+
+[[package]]
+name = "clap_lex"
+version = "0.7.5"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b94f61472cee1439c0b966b47e3aca9ae07e45d070759512cd390ea2bebc6675"
+
+[[package]]
 name = "colorchoice"
 version = "1.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4421,7 +4448,7 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "8068341b24e766677ac169b9b4402cab7de8ce61d200792897f0b283f0c42d70"
 dependencies = [
  "chrono",
- "clap",
+ "clap 2.34.0",
  "rpassword",
  "solana-clock",
  "solana-cluster-type",
@@ -7190,7 +7217,7 @@ name = "spl-feature-proposal-cli"
 version = "1.2.0"
 dependencies = [
  "chrono",
- "clap",
+ "clap 4.5.46",
  "solana-clap-utils",
  "solana-cli-config",
  "solana-client",
