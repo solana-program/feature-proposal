@@ -1,25 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "programs:build": "zx ./scripts/program/build.mjs",
-    "programs:test": "zx ./scripts/program/test.mjs",
-    "programs:format": "zx ./scripts/program/format.mjs",
-    "programs:lint": "zx ./scripts/program/lint.mjs",
-    "solana:check": "zx ./scripts/check-solana-version.mjs",
-    "solana:link": "zx ./scripts/link-solana-version.mjs",
-    "clients:cli:format": "zx ./scripts/client/format-cli.mjs",
-    "clients:cli:lint": "zx ./scripts/client/lint-cli.mjs",
-    "clients:cli:publish": "zx ./scripts/client/publish-cli.mjs",
-    "clients:cli:test": "zx ./scripts/client/test-cli.mjs",
-    "template:upgrade": "zx ./scripts/upgrade-template.mjs",
-    "rust:spellcheck": "cargo spellcheck --code 1",
-    "rust:audit": "zx ./scripts/audit-rust.mjs",
-    "rust:semver": "cargo semver-checks"
-  },
-  "devDependencies": {
-    "@iarna/toml": "^2.2.5",
-    "typescript": "^5.9.2",
-    "zx": "^8.8.0"
+    "generate:clients": "exit 0"
   },
   "engines": {
     "node": ">=v20.0.0"

@@ -1,7 +1,3 @@
-// Mark this test as BPF-only due to current `ProgramTest` limitations when
-// CPIing into the system program
-#![cfg(feature = "test-sbf")]
-
 use {
     solana_feature_gate_interface::Feature,
     solana_program::program_option::COption,
