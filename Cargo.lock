@@ -7069,6 +7069,7 @@ dependencies = [
  "solana-clap-utils",
  "solana-cli-config",
  "solana-client",
+ "solana-commitment-config",
  "solana-logger",
  "solana-sdk",
  "spl-feature-proposal",
