@@ -10,9 +10,9 @@ use {
         input_validators::{is_keypair, is_url, is_valid_percentage, is_valid_pubkey},
     },
     solana_client::rpc_client::RpcClient,
+    solana_commitment_config::CommitmentConfig,
     solana_sdk::{
         clock::UnixTimestamp,
-        commitment_config::CommitmentConfig,
         program_pack::Pack,
         pubkey::Pubkey,
         signature::{read_keypair_file, Keypair, Signer},

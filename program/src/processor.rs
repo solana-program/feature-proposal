@@ -12,7 +12,7 @@ use {
         program_error::ProgramError,
         pubkey::Pubkey,
         rent::Rent,
-        sysvar::Sysvar,
+        sysvar::SysvarSerialize,
     },
     solana_sdk_ids::feature,
     solana_system_interface::instruction as system_instruction,

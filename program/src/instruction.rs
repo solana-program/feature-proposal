@@ -11,6 +11,7 @@ use {
         pubkey::Pubkey,
         sysvar,
     },
+    solana_sdk_ids::system_program,
 };
 
 /// Instructions supported by the Feature Proposal program
@@ -132,7 +133,7 @@ pub fn propose(
             AccountMeta::new(distributor_token_address, false),
             AccountMeta::new(acceptance_token_address, false),
             AccountMeta::new(feature_id_address, false),
-            AccountMeta::new_readonly(solana_program::system_program::id(), false),
+            AccountMeta::new_readonly(system_program::id(), false),
             AccountMeta::new_readonly(spl_token::id(), false),
             AccountMeta::new_readonly(sysvar::rent::id(), false),
         ],
@@ -155,7 +156,7 @@ pub fn tally(feature_proposal_address: &Pubkey) -> Instruction {
             AccountMeta::new(*feature_proposal_address, false),
             AccountMeta::new_readonly(acceptance_token_address, false),
             AccountMeta::new(feature_id_address, false),
-            AccountMeta::new_readonly(solana_program::system_program::id(), false),
+            AccountMeta::new_readonly(system_program::id(), false),
             AccountMeta::new_readonly(sysvar::clock::id(), false),
         ],
         data: FeatureProposalInstruction::Tally.pack_into_vec(),
