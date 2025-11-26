@@ -14,14 +14,14 @@ no-entrypoint = []
 borsh = "1.6.0"
 solana-feature-gate-interface = "3.0.0"
 solana-program = "3.0.0"
-solana-sdk-ids = "3.0.0"
-solana-system-interface = { version = "2", features = ["bincode"] }
+solana-sdk-ids = "3.1.0"
+solana-system-interface = { version = "3", features = ["bincode"] }
 spl-token = { version = "9.0", features = [
   "no-entrypoint",
 ] }
 
 [dev-dependencies]
-solana-program-test = "3.0.10"
+solana-program-test = { version = "3.1.0", features = ["agave-unstable-api"] }
 solana-sdk = "3.0.0"
 
 [lib]
