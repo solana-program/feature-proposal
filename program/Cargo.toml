@@ -14,7 +14,7 @@ no-entrypoint = []
 borsh = "1.6.0"
 solana-feature-gate-interface = "3.0.0"
 solana-program = "3.0.0"
-solana-sdk-ids = "3.0.0"
+solana-sdk-ids = "3.1.0"
 solana-system-interface = { version = "2", features = ["bincode"] }
 spl-token = { version = "9.0", features = [
   "no-entrypoint",
