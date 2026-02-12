@@ -9,7 +9,7 @@ edition = "2021"
 
 [dependencies]
 chrono = "0.4.43"
-clap = "2.33.3"
+clap = "4.5.58"
 solana-clap-utils = "3.1.0"
 solana-cli-config = "3.1.8"
 solana-client = "3.1.0"
