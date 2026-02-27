@@ -1,5 +1,5 @@
-RUST_TOOLCHAIN_NIGHTLY = nightly-2025-02-16
-SOLANA_CLI_VERSION = 3.0.0
+RUST_TOOLCHAIN_NIGHTLY = nightly-2026-01-22
+SOLANA_CLI_VERSION = 3.1.8
 
 nightly = +${RUST_TOOLCHAIN_NIGHTLY}
 
@@ -23,9 +23,8 @@ cargo-nightly:
 audit:
 	cargo audit \
 			--ignore RUSTSEC-2022-0093 \
-			--ignore RUSTSEC-2024-0421 \
 			--ignore RUSTSEC-2024-0344 \
-			--ignore RUSTSEC-2024-0376 $(ARGS)
+			$(ARGS)
 
 spellcheck:
 	cargo spellcheck --code 1 $(ARGS)
