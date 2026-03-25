@@ -4105,7 +4105,7 @@ dependencies = [
  "security-framework",
  "security-framework-sys",
  "webpki-root-certs",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.1",
 ]
 
 [[package]]
@@ -4928,9 +4928,9 @@ dependencies = [
 
 [[package]]
 name = "solana-clap-utils"
-version = "3.1.8"
+version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f1a2875a1d148c9f356c4dc237681cb66b504cbe431ca468f1ec587173a3d416"
+checksum = "a8cdd0b6fb1d0bfdd00dc02bfb38e9842f7f669c10d9a6eed78a2d343774b2d2"
 dependencies = [
  "chrono",
  "clap",
@@ -4958,9 +4958,9 @@ dependencies = [
 
 [[package]]
 name = "solana-cli-config"
-version = "3.1.8"
+version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "70215cf542074daf7d2c60241f018574fdc01add7af8c57254a84fd40525fc82"
+checksum = "d3ad9918af4aae4ba97e605ae24365a4401cee57cc26b119df50e7b89aa618ab"
 dependencies = [
  "dirs-next",
  "serde",
@@ -6161,9 +6161,9 @@ dependencies = [
 
 [[package]]
 name = "solana-remote-wallet"
-version = "3.1.8"
+version = "3.1.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0f9cd2c9bd26e6f1faaa45a5d24403f85816651c31e5eb2e06a1749e129fd4e8"
+checksum = "8e96a38f8eaf753ec63073a4db4a8ed316c2223455c7729d3f14afe2d5957217"
 dependencies = [
  "console 0.16.1",
  "dialoguer",
@@ -7913,7 +7913,7 @@ dependencies = [
  "getrandom 0.3.1",
  "once_cell",
  "rustix 1.0.0",
- "windows-sys 0.60.2",
+ "windows-sys 0.61.1",
 ]
 
 [[package]]
@@ -8656,7 +8656,7 @@ version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf221c93e13a30d793f7645a0e7762c55d169dbb0a49671918a2319d289b10bb"
 dependencies = [
- "windows-sys 0.48.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
